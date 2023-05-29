@@ -1,0 +1,283 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Wix+Madefor+Display&display=swap');
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Wix Madefor Display', sans-serif;
+    line-height: 1.6rem;
+    color: #fff;
+    background-color: #333333;
+
+}
+
+/* ************* common properties ***************** */
+.btn {
+    padding: 20px;
+   
+    color: white;
+    text-decoration: none;
+
+}
+
+.section_box {
+
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+  
+
+}
+.section_btn {
+    margin: 50px 0;
+}
+.head{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+.sub_head{
+    text-align: center;
+    font-size: 2rem;
+    margin: 25px 0 25px 0;
+    font-weight: bold;
+
+}
+.mr_tb{
+    margin: 25px 0;
+}
+/* ***************************************************** */
+
+
+.conatiner {
+    display: flex;
+    flex-direction: column;
+}
+
+.head_nav {
+    display: flex;
+    height: 40px;
+    /* border: 2px solid #fff; */
+    background-color: #333333;
+    position: fixed;
+    width: 100%;
+
+
+}
+
+.nav_menu {
+    display: flex;
+    align-items: center;
+
+}
+
+.nm_item_li {
+    margin: 0 25px;
+    list-style: none;
+}
+
+.nm_items {
+    text-decoration: none;
+    color: white;
+}
+
+/************************ main cobtainer ***************************/
+
+.main_content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+    background-image: url(./bg_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+ 
+
+
+}
+
+.main_heading {
+
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.m_sub_heading {
+    text-align: center;
+    font-size: 2rem;
+    margin: 10px 0 25px 0;
+    font-weight: bold;
+}
+
+.main_content_intro {
+    width: 1180px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+/* ********************music section ************************* */
+.music_section {
+   
+    /* border: 1px solid white; */
+    background-color: #252529;
+}
+
+.m_section_icon {
+    width: 50px;
+    filter: invert();
+}
+
+.m_section_head {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.m_section_sub_head {
+    font-size: 2rem;
+    margin: 32px 0;
+}
+
+.m_section_content {
+    width: 1180px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.5;
+
+}
+
+
+
+.m_btn {
+   
+    background-color: #D3071B;
+   
+
+}
+
+.m_btn:hover {
+
+    background-color: #d81a2d;
+}
+
+.m_section_txt {
+    margin: 10px 0;
+}
+
+/* ************video********************** */
+.video_section {
+    background-color: #F4F4F4;
+    /* border: 1px solid white; */
+    color: #333333;
+}
+
+
+.v_btn {
+   
+    background-color: #143F85;
+   
+}
+.v_btn:hover{
+   
+    background-color: #2756a1;
+   
+}
+/* ************info section********************** */
+.info_section{
+    height: 60vh;
+   
+    background-image: url(./tune_section_bg.jpeg);
+    background-repeat: no-repeat;
+   background-position: bottom;
+   background-size: cover;
+   justify-content: center;
+}
+
+/* ************gift card section********************** */
+.gift_card_section{
+   
+   display: flex;
+   align-items: center;
+   /* justify-content: space-between; */
+   padding: 5px 40px;
+   background-color: #ffffff;
+   color: #333333;
+}
+.card_img{
+    width: 500px;
+}
+.g_card ,.card_txt{
+    width: 500px;
+    padding: 5px 25px;
+}
+.c_text{
+    margin: 10px 0;
+}
+.redeem_box{
+    margin: 10px 0px;
+}
+
+.r_next_img{
+    width: 30px;
+}
+.redeem_link{
+    display: flex;
+    text-decoration: none;
+    color: #333333;
+    align-items: center;
+}
+
+/* ******************************footer section *************************** */
+.foot_section{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px 50px;
+    background-color: #252529;
+}
+.f_section_head{
+
+    
+    font-size: 20px;
+}
+.foot_box > hr{
+   border: 1px solid #5c5c5c ;
+   margin: 10px 0;
+}
+.foot_box{
+    width: 250px;
+    
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.foot_link{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: small;
+    
+}
+.footer_section{
+    display: flex;
+    height: 60px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+   
+}
